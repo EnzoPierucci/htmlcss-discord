@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /* border: 1px solid lime; */
     list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -138,6 +139,9 @@
         align-items: center;
         gap:10px ;
         margin-right: 90px;
+        /* background-image: url(../img/wave.svg);
+        background-color: #F6F6F6; */
+        background-color: #F6F6F6;
         
    }
 
@@ -161,6 +165,7 @@
     justify-content: center;
     align-items: center;
     gap:10px ;
+    background-color: #F6F6F6;
     
 }
 
@@ -224,50 +229,93 @@ main section picture{
 }
 
 footer{
-    background-color: black;
-    color: lightblue;
+    background-color: #23272A;
+    color: white;
+    
 }
 
 .footer{
     display: flex;
-    justify-content:center ;
-    gap: 100px;
+    justify-content:space-evenly ;
+    margin-bottom:25px ;
+    margin-top: 45px;
     
 }
 
 .info{
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
+
 }
 
-footer section{
+/* footer section{
 
     background-color: gray;
 }
 
 footer nav{
 
-    background-color: gray;
+    background-color: gray; */
+
+footer div li:first-child{
+    color: #7289DA;
+}   
+
+footer div nav {
+    display: flex;
+    font-size: 18px;
+    
 }
 
+
+
 hr{
-    border: 1px solid blue;
+    border: 1px solid#7289DA;
 }
 
 .end{
     display: flex;
-    justify-content:space-evenly
+    justify-content:space-between;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
 }
 
-div.end picture{
+
+
+/* div.end picture{
     background-color: brown;
 }
 
 div.end button{
     background-color: blueviolet;
+} */
+
+h3{
+    font-size: 34px;
+    color: #7289DA;
 }
 
+#button-end{
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+    background-color:#8EA1E1 ;
+    
+    
+}
+
+#button-end a{
+    text-decoration: none;
+    color: white;
+}
+
+#ita{
+    height: 15px;
+    
+}
 
 
     
