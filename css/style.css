@@ -20,11 +20,15 @@
 
     header div,picture,nav,button .flex-container-row{
         display: flex;
-        justify-content:space-around ;
+        justify-content:space-evenly ;
+        margin-top: 10px;
+        
     }
     header{
-        height: 500px;
-        background-color: lightblue;
+        
+        background-image:url(../img/jumbo.png);
+        background-size: cover;
+        background-position: center;
     }
 
 
@@ -36,42 +40,77 @@
         
     }
 
-    header div nav ul li{
+    
+
+    header div nav ul li a{
         
-        background-color: red;
-        height: 30px;
-        width: 30px;  
+        color: white; 
+        text-decoration: none;
     }
 
-    header div picture img{
-        height: 50px;
-        width: 50px; 
-        background-color: pink;
-    }
+    
 
-    button{
-        height: 50px;
+      button{
+        
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+
+        
+        
          
-    }
+    } 
 
     header div button a{
-        height: 50px;
-        width: 50px; 
-        background-color: rgb(238, 255, 192);
+    text-align: center;
+    text-decoration: none;   
+    
+     font-size: 18px;
+     padding: 10px;
+     
     }
 
     #welcome{
         display: flex;
         justify-content: center;
         align-items: center;  
+        text-align: center;
+        margin-bottom: 25px;
+
     }
 
-    div section p{
+    header div section {
         padding: 150px;
-        background-color: aquamarine;
+        color: white;
+        font-size: 20px;
+        
+        gap: 50px;
+        
     }
 
-    div section.flex-container-row{
+
+     h1{
+        font-size: 60px;
+        
+        
+    }
+
+    header div section button{
+    
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+     
+
+    }
+
+    #black-button{
+        background-color: black;
+    }
+
+    header div section.flex-container-row{
         padding: 20px;
         justify-content: center;
         gap: 15px;  
@@ -79,7 +118,7 @@
 
     main{
         /* height: 1000px; */
-        background-color: cornflowerblue;
+        background-color:white;
         flex-basis: calc(100%/5);
         
     }
