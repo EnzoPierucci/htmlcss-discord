@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid lime; */
+    list-style-type: none;
+}
+
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    
+    } 
+
+    .flex-container-row{
+        display: flex;
+        
+    }
+
+    header div,picture,nav,button .flex-container-row{
+        display: flex;
+        justify-content:space-around ;
+    }
+    header{
+        height: 500px;
+        background-color: lightblue;
+    }
+
+
+    header div nav ul{
+        display: flex;
+        gap: 50px;
+        align-items: top;
+        
+        
+    }
+
+    header div nav ul li{
+        
+        background-color: red;
+        height: 30px;
+        width: 30px;  
+    }
+
+    header div picture img{
+        height: 50px;
+        width: 50px; 
+        background-color: pink;
+    }
+
+    button{
+        height: 50px;
+         
+    }
+
+    header div button a{
+        height: 50px;
+        width: 50px; 
+        background-color: rgb(238, 255, 192);
+    }
+
+    #welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    div section p{
+        padding: 150px;
+        background-color: aquamarine;
+    }
+
+    div section.flex-container-row{
+        padding: 20px;
+        justify-content: center;
+        gap: 15px;  
+    }
+
+    main{
+        /* height: 1000px; */
+        background-color: cornflowerblue;
+        flex-basis: calc(100%/5);
+        
+    }
+
+   .center{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:25px ;
+        height: 250px;
+        padding: 30px;
+        
+   }
+
+   .center-revers{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap:25px ;
+    height: 250px;
+    padding: 30px;
+    
+}
+
+.center-bot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px ;
+    height: 250px;
+    padding: 30px;
+}
+
+main section article{
+    background-color: lightsalmon;
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+
+main section picture{
+    background-color:limegreen;
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+    background-color: black;
+    color: lightblue;
+}
+
+.footer{
+    display: flex;
+    justify-content:center ;
+    gap: 100px;
+    
+}
+
+.info{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+footer section{
+
+    background-color: gray;
+}
+
+footer nav{
+
+    background-color: gray;
+}
+
+hr{
+    border: 1px solid blue;
+}
+
+.end{
+    display: flex;
+    justify-content:space-evenly
+}
+
+div.end picture{
+    background-color: brown;
+}
+
+div.end button{
+    background-color: blueviolet;
+}
+
+
+
+    
