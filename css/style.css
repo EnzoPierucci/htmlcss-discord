@@ -173,14 +173,23 @@
     height: 700px;
 }
 
-/* .article-stand{
-    
-    color: black;
-    text-align: right;
-    font-size: 22px;
-    
+#star {
+    display: flex;
+    background-image: url(../img/stars.svg);
+    background-size:cover;
+    background-position: -5px -20px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    width: 400px;    
+}
 
-} */
+div#star span{
+    font-size: 28px;
+    text-align: center;
+    
+}
 
 .article-reverse{
     color: black;
@@ -198,6 +207,20 @@ main section picture{
    
     color: white;
     
+}
+
+#mac{
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    background-color:#8EA1E1 ;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+#mac a{
+    text-decoration: none;
+    color: white;
 }
 
 footer{
