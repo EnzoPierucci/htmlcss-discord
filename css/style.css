@@ -58,6 +58,7 @@
         text-decoration: none;
         justify-content: center;
         align-items: center;
+        border: 0px;
 
         
         
@@ -171,7 +172,7 @@
 
 .center-bot article{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .center-bot picture img{
@@ -181,13 +182,13 @@
 #star {
     display: flex;
     background-image: url(../img/stars.svg);
-    background-size:cover;
-    background-position: -5px -20px;
+    background-size:contain;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;  
     text-align: center;
-    width: 400px;    
+    padding: 30px;
+       
 }
 
 div#star span{
@@ -245,8 +246,7 @@ footer{
 .info{
 display: flex;
 flex-direction: column;
-justify-content: space-between;
-
+gap: 20px;
 }
 
 /* footer section{
@@ -264,7 +264,7 @@ footer div li:first-child{
 
 footer div nav {
     display: flex;
-    font-size: 18px;
+    font-size: 14px;
     
 }
 
@@ -316,6 +316,21 @@ h3{
     height: 15px;
     
 }
+
+.social-icon{
+    display: flex;
+    gap: 5px;
+    fill: white;
+    
+}
+
+.flex-container-row-nav{
+    display: flex;
+    gap: 90px;
+    
+}
+
+
 
 
     
